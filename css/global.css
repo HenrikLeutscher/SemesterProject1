@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Albert Sans Bold";
+    src: url("../assets/fonts/AlbertSans-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Albert Sans Extra Bold";
+    src: url("../assets/fonts/AlbertSans-ExtraBold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Albert Sans Semi Bold";
+    src: url("../assets/fonts/AlbertSans-SemiBold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Asar Regular";
+    src: url("../assets/fonts/Asar-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Prociono Regular";
+    src: url("../assets/fonts/Prociono-Regular.ttf") format("truetype");
+  }
+
+html, body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    max-width: 1980px;
+    background-color: var(--whitebackground);
+    text-decoration: none;
+  }
+
+.HeaderButtons {
+    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--backgroundcolor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: var(--fhfontsize);
+}
+
+.HeaderButtons a {
+  text-decoration: none;
+  color: var(--textcolor);
+  cursor: pointer;
+}
+
+.HeaderButtons a:hover {
+  color:var(--texthover);
+  text-decoration: underline;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+}
+
+.MainContent {
+  min-height: 500px;
+}
+
+footer {
+  font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--textcolor);
+  font-size: var(--fhfontsize);
+  background-color: var(--backgroundcolor);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+.SocialX,
+.SocialInsta,
+.SocialFB,
+.FooterPages {
+  padding-left: 100px;
+}
+
+.SocialX,
+.SocialInsta,
+.SocialFB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.FooterSocials img {
+  width: 30px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.FooterPages,
+.FooterPages a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--textcolor);
+}
+
+.FooterPages a:hover {
+  color:var(--texthover);
+  text-decoration: underline;
+}
+
+.FooterCopyright {
+  font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--textcolor);
+  font-size: var(--fhfontsize);
+  background-color: var(--backgroundcolor);
+}
+
+footer img {
+  width: 200px;
+  height: 200px;
+}

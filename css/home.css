@@ -1,0 +1,88 @@
+@import url("../css/global.css");
+
+@import url("../css/variables.css");
+
+.MainContent {
+    min-height: 1000px;
+}
+
+.PartA {
+    background-image: url("../assets/images/background.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--whitebackground);
+}
+
+.PartAText {
+    display: flex;
+    flex-direction: column;
+}
+
+.PartA h3 {
+    font-family: "Albert Sans Extra Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--titlefontsize);
+}
+
+.PartA h4 {
+    font-family: "Albert Sans Extra Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--fhfontsize);
+    display: flex;
+    justify-content: center;
+}
+
+.PartA img {
+    width: 300px;
+    height: 300px;
+}
+
+.PartB {
+    min-height: 750px;
+    color: var(--textcolor);
+    border-width: 20px;
+    border-color: red;
+}
+
+.PartBHeader {
+    font-family: "Albert Sans Extra Bold", Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: var(--titlefontsize);
+}
+
+.PartBContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+    justify-content: center;
+}
+
+.PartBContent h3 {
+    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--subtitlefontsize);
+}
+
+.PartBContent p {
+    font-family: "Asar Regular", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--fhfontsize);
+    font-stretch: expanded;
+}
+
+.Aeronautics,
+.NightMuseum,
+.EnergeticaExhibitionLoan {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.Aeronautics img,
+.NightMuseum img,
+.EnergeticaExhibitionLoan img {
+    width: 700px;
+    height: auto;
+    border-radius: 40px;
+}

@@ -1,0 +1,13 @@
+:root {
+ --backgroundcolor: #c7fad4;
+ --whitebackground: #f2f2f2;
+
+ --textcolor: #3b3b3b;
+ --bordercolor: #3fa652;
+
+ --texthover: #3fa652;
+
+ --fhfontsize: 16px;
+ --titlefontsize: 35px;
+ --subtitlefontsize: 25px;
+}
