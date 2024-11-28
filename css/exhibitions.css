@@ -1,0 +1,61 @@
+@import url("../css/global.css");
+
+@import url("../css/variables.css");
+
+.MainContent {
+    min-height: 1000px;
+}
+
+.PartA {
+    min-height: 750px;
+    color: var(--textcolor);
+}
+
+.PartAHeader {
+    font-family: "Albert Sans Extra Bold", Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: var(--titlefontsize);
+    border-color: var(--bordercolor);
+    border-bottom-style: groove;
+}
+
+.PartAContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    max-width: 50%;
+}
+
+.PartAContent h3 {
+    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--subtitlefontsize);
+}
+
+.PartAContent p {
+    font-family: "Asar Regular", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--fhfontsize);
+    font-stretch: expanded;
+}
+
+.PartA,
+.aaiim,
+.OurLibrary {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border-color: var(--bordercolor);
+    border-bottom-style: groove;
+    border-radius: 20px;
+}
+
+.PartA img,
+.aaiim img,
+.OurLibrary img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}

@@ -44,7 +44,7 @@ html, body {
 
 .HeaderButtons a {
   text-decoration: none;
-  color: var(--textcolor);
+  color: var(--headertextcolor);
   cursor: pointer;
 }
 
@@ -58,13 +58,9 @@ html, body {
     height: 70px;
 }
 
-.MainContent {
-  min-height: 500px;
-}
-
 footer {
   font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--textcolor);
+  color: var(--headertextcolor);
   font-size: var(--fhfontsize);
   background-color: var(--backgroundcolor);
   display: flex;
@@ -100,7 +96,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: var(--textcolor);
+  color: var(--headertextcolor);
 }
 
 .FooterPages a:hover {
@@ -110,9 +106,10 @@ footer {
 
 .FooterCopyright {
   font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--textcolor);
+  color: var(--headertextcolor);
   font-size: var(--fhfontsize);
   background-color: var(--backgroundcolor);
+  padding-top: 20px;
 }
 
 footer img {
