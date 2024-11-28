@@ -23,10 +23,10 @@
 
 .PartAContent {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
     gap: 40px;
     padding: 20px;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .PartAContent h3 {
@@ -38,24 +38,43 @@
     font-family: "Asar Regular", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--fhfontsize);
     font-stretch: expanded;
+    color: var(--textcolor);
+}
+
+.PartAContent a {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+
+.PartAContent a:hover {
+    text-decoration: underline;
+    color: var(--texthover);
+    cursor: pointer;
 }
 
 .PartA,
+.VRPainting,
 .aaiim,
-.OurLibrary {
+.OurLibrary,
+.DinosaurAncientLife,
+.scienceofyou,
+.WondersOfSpace {
     padding: 40px;
     display: flex;
     flex-direction: column;
     max-width: 100%;
     border-color: var(--bordercolor);
     border-bottom-style: groove;
-    border-radius: 20px;
 }
 
 .PartA img,
+.VRPainting img,
 .aaiim img,
-.OurLibrary img {
-    width: 100%;
-    height: auto;
-    border-radius: 40px;
+.OurLibrary img,
+.DinosaurAncientLife img,
+.scienceofyou img,
+.WondersOfSpace img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
 }
