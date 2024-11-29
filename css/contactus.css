@@ -6,13 +6,17 @@
     color: var(--textcolor);
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
 }
 
 .Title {
     font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--titlefontsize);
+}
+
+.SubTitle {
+    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--subtitlefontsize);
 }
 
 .Content {
@@ -25,12 +29,38 @@
     padding-right: 100px;
 }
 
-.Content h3 {
-    font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: var(--subtitlefontsize);
+.ContactUs {
+    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--fhfontsize);
+    max-width: 600px;
+    border-color: var(--bordercolor);
+    border-style: groove;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
-.Content p {
-    font-family: "Asar Regular", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: var(--fhfontsize);
+.ContactUs form {
+    border-color: var(--bordercolor);
+    border-style: groove;
+}
+
+.ContactUs ::placeholder {
+    color: var(--textcolor);
+    opacity: 60%;
+}
+
+.ContactUsForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Subject,
+.Inquiry,
+.SubmitButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
