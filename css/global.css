@@ -12,7 +12,11 @@
     font-family: "Albert Sans Semi Bold";
     src: url("../assets/fonts/AlbertSans-SemiBold.ttf") format("truetype");
   }
-  
+
+  @font-face {
+    font-family: "Albert Sans Regular";
+    src: url("../assets/fonts/AlbertSans-Regular.ttf") format("truetype");
+  }
   @font-face {
     font-family: "Asar Regular";
     src: url("../assets/fonts/Asar-Regular.ttf") format("truetype");
@@ -29,6 +33,9 @@ html, body {
     max-width: 1980px;
     background-color: var(--whitebackground);
     text-decoration: none;
+    border-style: inset;
+    border-color: var(--bordercolor);
+    border-width: 1px;
   }
 
 .HeaderButtons {
@@ -115,4 +122,48 @@ footer {
 footer img {
   width: 200px;
   height: 200px;
+}
+
+/* Exhibition Pages Global */
+
+.ExhibitionPages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ExhibitionContent {
+  border-color: red;
+  border-style: initial;
+}
+
+.ExhibitionPages h1 {
+  font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--titlefontsize);
+  color: var(--textcolor);
+}
+
+.ExhibitionPages h2 {
+  font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--subtitlefontsize);
+}
+
+.ExhibitionPages p,
+.ExhibitionPages ul {
+  font-family: "Albert Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--fhfontsize);
+}
+
+.ExhibitionPages img {
+  width: 1000px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.ExhibitionPages h2,
+.ExhibitionPages p,
+.ExhibitionPages ul {
+  width: 700px;
 }

@@ -31,7 +31,7 @@
 .Content {
     max-width: 600px;
     border-color: var(--bordercolor);
-    border-style: groove;
+    border-style: inset;
     margin-bottom: 40px;
     padding: 20px;
     padding-left: 100px;
@@ -44,6 +44,6 @@
 }
 
 .Content p {
-    font-family: "Asar Regular", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Albert Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--fhfontsize);
 }
