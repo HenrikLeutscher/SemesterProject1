@@ -39,6 +39,7 @@ html, body {
   }
 
 .HeaderButtons {
+    margin: 0;
     font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--backgroundcolor);
     display: flex;
@@ -49,8 +50,10 @@ html, body {
     font-size: var(--fhfontsize);
 }
 
-.HeaderButtons a {
+.HeaderButtons a,
+.HeaderButtons li {
   text-decoration: none;
+  list-style-type: none;
   color: var(--headertextcolor);
   cursor: pointer;
 }
