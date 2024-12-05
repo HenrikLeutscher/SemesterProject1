@@ -2,4 +2,9 @@
     .MainContent {
         min-width: 400px;
     }
+
+    .HeaderButtons {
+        display: flex;
+        flex-direction: column;
+    }
 }
