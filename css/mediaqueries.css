@@ -1,10 +1,23 @@
-@media (max-width: 860px) {
+@media (max-width: 900px) {
     .MainContent {
         min-width: 400px;
+    }
+
+    .PartAText h3 {
+        font-size: var(--phonetitlefontsize);
+    }
+
+    .PartBHeader {
+        font-size: var(--phonetitlefontsize);
+    }
+
+    .PartBContent p {
+        font-size: var(--phonefhfontsize);
     }
 
     .HeaderButtons {
         display: flex;
         flex-direction: column;
+        font-size: var(--phonefhfontsize);
     }
 }

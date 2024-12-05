@@ -14,8 +14,8 @@
  --buttonfontsize: 20px;
 
  /*Font's on Phone */
- --phonefhfontsize: 16px;
- --phonetitlefontsize: 35px;
- --phonesubtitlefontsize: 25px;
- --phonebuttonfontsize: 20px;
+ --phonefhfontsize: 12px;
+ --phonetitlefontsize: 26px;
+ --phonesubtitlefontsize: 19px;
+ --phonebuttonfontsize: 15px;
 }
