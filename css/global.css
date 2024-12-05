@@ -31,7 +31,7 @@ html, body {
     margin: 0 auto;
     overflow-x: hidden;
     max-width: 1980px;
-    background-color: var(--whitebackground);
+    background-color: var(--backgroundcolor);
     text-decoration: none;
     border-style: inset;
     border-color: var(--bordercolor);
@@ -48,6 +48,7 @@ html, body {
     padding-left: 20px;
     padding-right: 20px;
     font-size: var(--fhfontsize);
+    min-width: 860px;
 }
 
 .HeaderButtons a,
@@ -78,6 +79,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding-right: 40px;
+  min-width: 860px;
 }
 
 .SocialX,
@@ -135,6 +137,7 @@ footer img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  min-width: 860px;
 }
 
 .ExhibitionContent {
@@ -161,8 +164,9 @@ footer img {
 
 .ExhibitionPages img {
   width: 1000px;
-  height: 250px;
+  height: 450px;
   object-fit: cover;
+  object-position: 100% 60%;
   border-radius: 50px;
 }
 
@@ -170,4 +174,9 @@ footer img {
 .ExhibitionPages p,
 .ExhibitionPages ul {
   width: 700px;
+}
+
+.MainContent,
+.ExhibitionPages {
+  background-color: white;
 }

@@ -28,9 +28,10 @@
 
 .PartA h4 {
     font-family: "Albert Sans Extra Bold", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: var(--fhfontsize);
+    font-size: var(--subtitlefontsize);
     display: flex;
     justify-content: center;
+    margin-top: -30px;
 }
 
 .PartA img {
