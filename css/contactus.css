@@ -14,12 +14,7 @@
     font-size: var(--titlefontsize);
 }
 
-.SubTitle {
-    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: var(--subtitlefontsize);
-}
-
-.Content {
+.ContentContactUs {
     max-width: 600px;
     border-color: var(--bordercolor);
     border-style: inset;
@@ -27,6 +22,21 @@
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+  
+  .ContentContactUs h3 {
+    font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--subtitlefontsize);
+  }
+  
+  .ContentContactUs p {
+    font-family: "Albert Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--fhfontsize);
+  }
+
+.SubTitle {
+    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--subtitlefontsize);
 }
 
 .ContactUs {
@@ -44,6 +54,17 @@
 .ContactUs form {
     border-color: var(--bordercolor);
     border-style: inset;
+}
+
+.ContactUs form {
+    border-style: none;
+}
+
+.ContactUs input,
+.Inquiry textarea {
+    border-color: var(--bordercolor);
+    border-style: inset;
+    border-width: 4px;
 }
 
 .ContactUs ::placeholder {
@@ -87,6 +108,7 @@
 .Inquiry textarea {
     font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
     width: 600px;
+    max-width: 600px;
 }
 
 .ContactUsEmail input,

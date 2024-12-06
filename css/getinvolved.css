@@ -2,18 +2,18 @@
 
 @import url("../css/variables.css");
 
-.MainContent {
+.MainContentInvolved {
     color: var(--textcolor);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.MainContent img {
+.MainContentInvolved img {
     width: 600px;
     height: 200px;
     object-fit: cover;
-    object-position: 100% 0;
+    object-position: 100% 20;
     margin-top: 20px;
 }
 
@@ -23,18 +23,18 @@
     color: var(--textcolor);
 }
 
-.MainContent h1 {
+.MainContentInvolved h1 {
     display: flex;
     justify-content: center;
 }
 
-.MainContent h3 {
+.MainContentInvolved h3 {
     font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--subtitlefontsize);
     margin-bottom: -10px;
 }
 
-.MainContent p {
+.MainContentInvolved p {
     font-family: "Albert Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--fhfontsize);
 }

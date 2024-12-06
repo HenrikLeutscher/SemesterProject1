@@ -137,7 +137,6 @@ footer img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-  min-width: 860px;
 }
 
 .ExhibitionContent {
@@ -163,7 +162,7 @@ footer img {
 }
 
 .ExhibitionPages img {
-  width: 1000px;
+  width: 70%;
   height: 450px;
   object-fit: cover;
   object-position: 100% 60%;
@@ -173,10 +172,39 @@ footer img {
 .ExhibitionPages h2,
 .ExhibitionPages p,
 .ExhibitionPages ul {
-  width: 700px;
+  width: 60%;
 }
 
 .MainContent,
-.ExhibitionPages {
+.ExhibitionPages,
+.MainContentInvolved {
   background-color: white;
+}
+
+
+/* About Us. Contact Us and Visit Us pages */
+.Content {
+  max-width: 600px;
+  border-color: var(--bordercolor);
+  border-style: inset;
+  margin-bottom: 40px;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.Content img {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.Content h3 {
+  font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--subtitlefontsize);
+}
+
+.Content p {
+  font-family: "Albert Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--fhfontsize);
 }
