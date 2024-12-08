@@ -8,13 +8,13 @@
 
  --texthover: #3fa652;
 
- --fhfontsize: 16px;
+ --fhfontsize: 20px;
  --titlefontsize: 35px;
  --subtitlefontsize: 25px;
  --buttonfontsize: 20px;
 
  /*Font's on Phone */
- --phonefhfontsize: 12px;
+ --phonefhfontsize: 15px;
  --phonetitlefontsize: 26px;
  --phonesubtitlefontsize: 19px;
  --phonebuttonfontsize: 15px;
