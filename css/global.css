@@ -38,6 +38,38 @@ html, body {
     border-width: 1px;
   }
 
+/* Hamburger Menu Header */
+
+.bars {
+  width: 40px;
+  margin: 10px;
+}
+
+.hamburger,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ .hamburger {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu-checkbox:checked ~ .hamburger a {
+  color: var(--headertextcolor);
+  text-decoration: none;
+  font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--fhfontsize);
+  margin: 20px;
+  margin-top: 10px;
+}
+
+#menu-checkbox:checked ~ .hamburger a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger Menu Header */
+
 .HeaderButtons {
     margin: 0;
     font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;

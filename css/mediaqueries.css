@@ -4,22 +4,44 @@
         min-width: 100px;
     }
 
-    .PartAText h3 {
-        font-size: var(--phonetitlefontsize);
-    }
-
-    .PartBHeader {
-        font-size: var(--phonetitlefontsize);
-    }
-
-    p {
-        font-size: var(--phonefhfontsize);
-    }
-
-    .Aeronautics h3 {
-        font-size: var(--phonesubtitlefontsize);
+    .PartAText h3,
+    .PartAText h4 {
+        display: flex;
+        margin-top: -15px;
+        justify-content: center;
     }
 }
+
+/* Hamburger Menu Header */
+
+@media (min-width: 900px) {
+    .hamburger {
+        display: block;
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .hamburger a,
+    .hamburger li {
+        font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        list-style-type: none;
+        color: var(--headertextcolor);
+        cursor: pointer;
+    }
+
+    .hamburger a:hover {
+        color:var(--texthover);
+        text-decoration: underline;
+    }
+
+}
+  
+  /* Hamburger Menu Header */
+
+
 
 /* Home + Exhibition Spaces Page */
 @media (max-width: 830px) {
@@ -58,7 +80,7 @@
 @media (max-width: 900px) {
     .Content {
         padding-top: 20px;
-        width: 75%;
+        width: calc(80vw);
         padding-left: 100px;
         padding-right: 100px;
         max-width: none;
@@ -81,7 +103,7 @@
 @media (max-width: 900px) {
     .ContentContactUs {
         padding-top: 20px;
-        width: 35%;
+        width: 50%;
         max-width: none;
         padding-left: 50px;
         padding-right: 50px;
@@ -136,6 +158,10 @@
     .GetInvolvedContent img {
         width: 75%;
     }
+
+    .GetInvolvedContent {
+        width: calc(80vw);
+    }
 }
 
 /* All h1, h3, p font change */
@@ -162,7 +188,7 @@
 }
 
 /* Global Header and Footer */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .HeaderButtons {
         display: flex;
         flex-direction: column;
@@ -184,5 +210,10 @@
       .FooterCopyright {
         padding-left: 0px;
         align-items: center;
+      }
+
+      footer h3,
+      .FooterCopyright {
+        font-size: var(--phonefhfontsize);
       }
 }
