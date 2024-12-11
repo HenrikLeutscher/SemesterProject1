@@ -12,6 +12,14 @@
     }
 }
 
+@media (max-width: 850px) {
+    .Aeronautics,
+    .NightMuseum,
+    .EnergeticaExhibitionLoan {
+        width: calc(95%);
+    }
+}
+
 /* Hamburger Menu Header */
 
 @media (max-width: 901px) {
@@ -62,35 +70,6 @@
 }
 
 /* Hamburger Menu Header */
-
-
-
-/* Home + Exhibition Spaces Page */
-@media (max-width: 830px) {
-    .Aeronautics,
-    .NightMuseum,
-    .EnergeticaExhibitionLoan,
-    .Cosmology,
-    .Evolution,
-    .BiologyandMedicine,
-    .RoboticsandAI,
-    .Ecology {
-        width: calc(80vw);
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-/* Exhibition Spaces Page */
-
-@media (max-width: 1403px) {
-    .Cosmology img,
-    .Evolution img,
-    .BiologyandMedicine img,
-    .RoboticsandAI img,
-    .Ecology img {
-        width: 95%;
-    }
-}
 
 /* All Exhibition Space individual pages */
 @media (max-width: 900px) {

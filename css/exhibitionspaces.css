@@ -26,7 +26,6 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 40px;
     padding: 20px;
-    max-width: 100%;
 }
 
 .PartAContent h3 {
@@ -59,10 +58,9 @@
 .RoboticsandAI,
 .Ecology,
 .WondersOfSpace {
-    padding: 40px;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
     border-color: var(--bordercolor);
     border-bottom-style: groove;
 }
@@ -74,7 +72,8 @@
 .RoboticsandAI img,
 .Ecology img,
 .WondersOfSpace img {
-    width: 400px;
-    height: 400px;
+    max-width: calc(100%);
+    max-height: 500px;
+    height: auto;
     object-fit: cover;
 }

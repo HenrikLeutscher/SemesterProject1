@@ -78,7 +78,7 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    max-width: calc(90%);
     border-color: var(--bordercolor);
     border-bottom-style: groove;
     border-radius: 20px;
@@ -87,7 +87,6 @@
 .Aeronautics img,
 .NightMuseum img,
 .EnergeticaExhibitionLoan img {
-    width: 100%;
     height: auto;
     border-radius: 40px;
 }
