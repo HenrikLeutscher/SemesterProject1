@@ -13,6 +13,18 @@
 }
 
 @media (max-width: 850px) {
+    .PartBContent {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .PartBContent img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 850px) {
     .Aeronautics,
     .NightMuseum,
     .EnergeticaExhibitionLoan {
@@ -70,6 +82,15 @@
 }
 
 /* Hamburger Menu Header */
+
+/* Exhibition Spaces responsive */
+
+@media (max-width: 450px) {
+    .PartAContent {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
 
 /* All Exhibition Space individual pages */
 @media (max-width: 900px) {
