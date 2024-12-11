@@ -76,9 +76,10 @@
     .RoboticsandAI,
     .Ecology {
         width: calc(80vw);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
-
 /* Exhibition Spaces Page */
 
 @media (max-width: 1403px) {
@@ -197,6 +198,10 @@
     .MainContent h3,
     .ExhibitionPages h3 {
         font-size: var(--phonesubtitlefontsize);
+    }
+
+    .MainContent h4 {
+        font-size: var(--phonefhfontsize);
     }
 
     .MainContent button {
