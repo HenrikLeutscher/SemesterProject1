@@ -1,44 +1,51 @@
 @font-face {
-    font-family: "Albert Sans Bold";
-    src: url("../assets/fonts/AlbertSans-Bold.ttf") format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Albert Sans Extra Bold";
-    src: url("../assets/fonts/AlbertSans-ExtraBold.ttf") format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Albert Sans Semi Bold";
-    src: url("../assets/fonts/AlbertSans-SemiBold.ttf") format("truetype");
-  }
+  font-family: "Albert Sans Bold";
+  src: url("../assets/fonts/AlbertSans-Bold.ttf") format("truetype");
+}
 
-  @font-face {
-    font-family: "Albert Sans Regular";
-    src: url("../assets/fonts/AlbertSans-Regular.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: "Asar Regular";
-    src: url("../assets/fonts/Asar-Regular.ttf") format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Prociono Regular";
-    src: url("../assets/fonts/Prociono-Regular.ttf") format("truetype");
-  }
+@font-face {
+  font-family: "Albert Sans Extra Bold";
+  src: url("../assets/fonts/AlbertSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Albert Sans Semi Bold";
+  src: url("../assets/fonts/AlbertSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Albert Sans Regular";
+  src: url("../assets/fonts/AlbertSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Asar Regular";
+  src: url("../assets/fonts/Asar-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Prociono Regular";
+  src: url("../assets/fonts/Prociono-Regular.ttf") format("truetype");
+}
 
 html, body {
-    margin: 0 auto;
-    overflow-x: hidden;
-    max-width: 1980px;
-    background-color: var(--backgroundcolor);
-    text-decoration: none;
-    border-style: inset;
-    border-color: var(--bordercolor);
-    border-width: 1px;
-  }
+  margin: 0 auto;
+  overflow-x: hidden;
+  max-width: 1980px;
+  background-color: var(--backgroundcolor);
+  text-decoration: none;
+  border-style: inset;
+  border-color: var(--bordercolor);
+  border-width: 1px;
+}
+
 
 /* Hamburger Menu Header */
+
+.icon {
+  width: 70px;
+  height: 70px;
+}
 
 .bars {
   width: 40px;
@@ -59,47 +66,16 @@ html, body {
   color: var(--headertextcolor);
   text-decoration: none;
   font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: var(--fhfontsize);
+  font-size: var(--phonefhfontsize);
   margin: 20px;
   margin-top: 10px;
 }
 
-#menu-checkbox:checked ~ .hamburger a:hover {
+#menu-checkbox:checked~.hamburger a:hover {
   text-decoration: underline;
 }
 
 /* Hamburger Menu Header */
-
-.HeaderButtons {
-    margin: 0;
-    font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--backgroundcolor);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: var(--fhfontsize);
-    min-width: 860px;
-}
-
-.HeaderButtons a,
-.HeaderButtons li {
-  text-decoration: none;
-  list-style-type: none;
-  color: var(--headertextcolor);
-  cursor: pointer;
-}
-
-.HeaderButtons a:hover {
-  color:var(--texthover);
-  text-decoration: underline;
-}
-
-.icon {
-    width: 70px;
-    height: 70px;
-}
 
 footer {
   font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
@@ -145,7 +121,7 @@ footer {
 }
 
 .FooterPages a:hover {
-  color:var(--texthover);
+  color: var(--texthover);
   text-decoration: underline;
 }
 

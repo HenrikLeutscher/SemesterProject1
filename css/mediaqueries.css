@@ -14,32 +14,54 @@
 
 /* Hamburger Menu Header */
 
-@media (min-width: 900px) {
-    .hamburger {
-        display: block;
+@media (max-width: 901px) {
+    .bars {
+        position: absolute; 
+        right: 10px; 
     }
+}
 
+@media (min-width: 901px) {
     .bars {
         display: none;
     }
 
-    .hamburger a,
-    .hamburger li {
-        font-family: "Albert Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+    header img {
+        margin-right: 20px;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header a {
+        display: inline-block;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 88%;
+    }
+
+    .hamburger a {
+        font-family: "Albert Sans Bold",
+        Verdana, Geneva, Tahoma, sans-serif;
+        font-size: var(--fhfontsize);
         text-decoration: none;
-        list-style-type: none;
         color: var(--headertextcolor);
         cursor: pointer;
     }
+    
 
     .hamburger a:hover {
-        color:var(--texthover);
+        color: var(--texthover);
         text-decoration: underline;
     }
-
 }
-  
-  /* Hamburger Menu Header */
+
+/* Hamburger Menu Header */
 
 
 
@@ -166,6 +188,7 @@
 
 /* All h1, h3, p font change */
 @media (max-width: 900px) {
+
     .MainContent h1,
     .ExhibitionPages h1 {
         font-size: var(--phonetitlefontsize);
@@ -202,18 +225,18 @@
         display: flex;
         flex-direction: column;
     }
-      
-      .SocialX,
-      .SocialInsta,
-      .SocialFB,
-      .FooterPages,
-      .FooterCopyright {
+
+    .SocialX,
+    .SocialInsta,
+    .SocialFB,
+    .FooterPages,
+    .FooterCopyright {
         padding-left: 0px;
         align-items: center;
-      }
+    }
 
-      footer h3,
-      .FooterCopyright {
+    footer h3,
+    .FooterCopyright {
         font-size: var(--phonefhfontsize);
-      }
+    }
 }
