@@ -190,12 +190,14 @@
 @media (max-width: 900px) {
 
     .MainContent h1,
-    .ExhibitionPages h1 {
+    .ExhibitionPages h1,
+    .GetInvolvedHeader h1 {
         font-size: var(--phonetitlefontsize);
     }
 
     .MainContent h3,
-    .ExhibitionPages h3 {
+    .ExhibitionPages h3,
+    .GetInvolvedContent {
         font-size: var(--phonesubtitlefontsize);
     }
 
@@ -203,7 +205,8 @@
         font-size: var(--phonefhfontsize);
     }
 
-    .MainContent button {
+    .MainContent button,
+    .MainContentInvolved button {
         font-size: var(--phonebuttonfontsize);
     }
 
