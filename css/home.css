@@ -78,10 +78,9 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    max-width: calc(90%);
+    max-width: 90%;
     border-color: var(--bordercolor);
     border-bottom-style: groove;
-    border-radius: 20px;
 }
 
 .Aeronautics img,
