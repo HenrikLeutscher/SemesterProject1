@@ -3,5 +3,5 @@
 @import url("../css/variables.css");
 
 .ExhibitionPages img {
-    object-position: 100% 75%;
+    object-position: 100% 75% 10%;
   }

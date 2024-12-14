@@ -3,6 +3,6 @@
 @import url("../css/variables.css");
 
 .ExhibitionPages img {
-    object-position: 100% 50%;
+    object-position: 100% 50% 10%;
     height: 600px;
   }
