@@ -3,13 +3,6 @@
     .MainContent {
         min-width: 100px;
     }
-
-    .PartAText h3,
-    .PartAText h4 {
-        display: flex;
-        margin-top: -15px;
-        justify-content: center;
-    }
 }
 
 @media (max-width: 1683px) {
@@ -186,7 +179,7 @@
     }
 }
 
-/* All h1, h3, p font change */
+/* All h1, h2, h3, h4, p font change */
 @media (max-width: 900px) {
 
     .MainContent h1,
@@ -214,6 +207,19 @@
     .ExhibitionPages p,
     .MainContent input {
         font-size: var(--phonefhfontsize);
+    }
+
+    .PartAText h1,
+    .PartAText h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .PartAText h1 {
+        font-size: var(--phonetitlefontsize);
+    }
+    .PartAText h2 {
+        font-size: var(--phonesubtitlefontsize);
     }
 }
 

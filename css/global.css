@@ -118,6 +118,14 @@ footer {
   text-decoration: none;
   color: var(--headertextcolor);
   align-items: center;
+  cursor: pointer;
+}
+
+.SocialX a:hover,
+.SocialInsta a:hover,
+.SocialFB a:hover {
+  text-decoration: underline;
+  color: var(--texthover);
 }
 
 .FooterPages,
@@ -215,7 +223,7 @@ footer img {
   object-fit: cover;
 }
 
-.Content h3 {
+.Content h2 {
   font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
   font-size: var(--subtitlefontsize);
 }

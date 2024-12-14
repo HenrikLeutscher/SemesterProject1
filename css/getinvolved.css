@@ -60,6 +60,7 @@
     font-size: var(--buttonfontsize);
     background-color: var(--backgroundcolor);
     color: var(--headertextcolor);
+    cursor: pointer;
 }
 
 .ContactUsButton:hover {

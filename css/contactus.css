@@ -87,6 +87,10 @@
     align-items: center;
 }
 
+.Inquiry a {
+    text-decoration: none;
+}
+
 .SubmitButton {
     margin: 20px;
     border: none;
@@ -98,6 +102,7 @@
     font-size: var(--buttonfontsize);
     background-color: var(--backgroundcolor);
     color: var(--headertextcolor);
+    cursor: pointer;
 }
 
 .SubmitButton:hover {
