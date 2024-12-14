@@ -245,5 +245,6 @@
     footer h3,
     .FooterCopyright {
         font-size: var(--phonefhfontsize);
+        text-decoration: none;
     }
 }

@@ -7,7 +7,7 @@
 }
 
 .PartA {
-    background-image: url("../assets/images/background.gif");
+    background-image: url("../assets/images/homepage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -19,14 +19,15 @@
 .PartAText {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
-.PartA h3 {
+.PartA h1 {
     font-family: "Albert Sans Extra Bold", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--titlefontsize);
 }
 
-.PartA h4 {
+.PartA h2 {
     font-family: "Albert Sans Extra Bold", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--subtitlefontsize);
     display: flex;

@@ -112,6 +112,14 @@ footer {
   padding-right: 5px;
 }
 
+.SocialX a,
+.SocialInsta a,
+.SocialFB a {
+  text-decoration: none;
+  color: var(--headertextcolor);
+  align-items: center;
+}
+
 .FooterPages,
 .FooterPages a {
   display: flex;
