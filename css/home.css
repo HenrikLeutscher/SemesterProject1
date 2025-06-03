@@ -99,7 +99,7 @@
     padding-bottom: 20px;
 }
 
-.ExhibitionButton button {
+.ExhibitionButton a {
     font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
     color: var(--whitebackground);
     font-size: var(--buttonfontsize);
@@ -109,9 +109,10 @@
     border-style: none;
     border-radius: 20px;
     background-color: var(--backgroundcolor);
+    text-decoration: none;
 }
 
-.ExhibitionButton button:hover {
+.ExhibitionButton a:hover {
     background-color: var(--bordercolor);
     cursor: pointer;
 }
