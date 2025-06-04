@@ -19,7 +19,7 @@
                 alt="Community Science Museum Logo, 90 degree rotated Green C to the right and 3 ring systems surrounding the C">
         </a>
         <input type="checkbox" id="menu-checkbox">
-        <label for="menu-checkbox"><img class="bars"
+        <label for="menu-checkbox" aria-label="Toggle navigation menu"><img class="bars"
                 alt="3 horizontal equal lines in white color lined up in a column downwards indicating a drop down menu"
                 src="./assets/icons/barsmenu.svg"></label>
         <nav class="hamburger">
@@ -50,28 +50,27 @@
         <div class="ContactUs">
             <div class="ContactUsForm">
                 <div class="ContactUsName">
-                    <h3>Full Name</h3>
+                    <label for="fullname"><h3>Full Name</h3></label>
 
                     <form class="styled-form">
                         <input type="text" id="fullname" name="fullname" class="form_input" placeholder="John Doe">
                     </form>
                 </div>
                 <div class="ContactUsEmail">
-                    <h3>Email</h3>
-
+                    <label for="email"><h3>Email</h3></label>
                     <form class="styled-form">
                         <input type="email" id="email" name="email" class="form_input" placeholder="JohnDoe@Noroff.no">
                     </form>
                 </div>
             </div>
             <div class="Subject">
-                <h3>Subject</h3>
+                <label for="text"><h3>Subject</h3></label>
                 <form>
                     <input type="text" id="text" name="text" placeholder="Write Here...">
                 </form>
             </div>
             <div class="Inquiry">
-                <h3>Inquiry</h3>
+                <label for="textinquiry"><h3>Inquiry</h3></label>
                 <form>
                     <textarea id="textinquiry" rows="4" cols="50" placeholder="Write Here.."></textarea>
                 </form>
