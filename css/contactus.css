@@ -24,9 +24,10 @@
     padding-right: 100px;
   }
   
-  .ContentContactUs h3 {
+  .ContentContactUs label {
     font-family: "Albert Sans Semi Bold", Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--subtitlefontsize);
+    padding-bottom: 20px;
   }
   
   .ContentContactUs p {

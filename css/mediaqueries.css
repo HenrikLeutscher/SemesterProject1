@@ -52,11 +52,13 @@
         display: inline-block;
     }
 
-    .hamburger {
+    .hamburger,
+    .hamburger ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 88%;
+        list-style-type: none;
     }
 
     .hamburger a {
